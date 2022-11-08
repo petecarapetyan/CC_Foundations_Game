@@ -7,7 +7,7 @@ public class ExampleFileReadingService {
 
 
     public void printFileContents(String filePath){
-        System.out.println(fileContents(filePath);
+        System.out.println(fileContents(filePath));
     }
 
 	public String fileContents(String filePath) {
