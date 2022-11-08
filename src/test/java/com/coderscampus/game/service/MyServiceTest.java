@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import com.coderscampus.game.configuration.GameConstants;
 
 class MyServiceTest {
-\
+
 
 	@Test
 	void testMultiply() {
