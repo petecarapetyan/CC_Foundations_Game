@@ -14,7 +14,7 @@ public class Game {
         helloWorld();
     }
     private void helloWorld() {
-    	System.out.println("Hello World");
+    	System.out.println("Hello World Team!");
     	
     }
     
