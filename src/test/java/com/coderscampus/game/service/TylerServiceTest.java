@@ -9,12 +9,12 @@ import org.junit.jupiter.api.Test;
 
 class TylerServiceTest {
 	
-	TylerService ts = new TylerService();
+	TylerService tylerService = new TylerService();
 
 	@Test
 	void testMultiplyTwoNumbers() {
 		
-		Integer result = ts.multiplyTwoNumbers(2, 5);
+		Integer result = tylerService.multiplyTwoNumbers(2, 5);
 		
 		assertEquals (result, 10);
 	}
@@ -22,7 +22,7 @@ class TylerServiceTest {
 	@Test
 	void testAddTwoNumbers() {
 	
-		Integer result = ts.addTwoNumbers(10,  12);
+		Integer result = tylerService.addTwoNumbers(10,  12);
 		
 		assertEquals (result, 22);
 	
@@ -31,11 +31,21 @@ class TylerServiceTest {
 	@Test
 	void testDoFibonacciAtIndex() {
 // 		fibonacciSequence[10] = 34
-		Integer numberAtIndexNine = ts.doFibonacci().get(9);
+		Integer numberAtIndexNine = tylerService.doFibonacci().get(9);
 		
 		Integer result = 34;
 		Integer tenthIndex = numberAtIndexNine;
 		
 		assertEquals (result, tenthIndex);
+	}
+	
+	@Test
+	void testDivideTwoNumbers() {
+		double numberTested = tylerService.divideTwoNumbers(5, 2);
+		
+		double result = 2.5;
+		
+		assertEquals (result, numberTested);
+		
 	}
 }
