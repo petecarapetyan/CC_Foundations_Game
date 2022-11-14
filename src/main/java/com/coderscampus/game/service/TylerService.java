@@ -41,4 +41,12 @@ public class TylerService {
 						
 		return fibonacciSequence;
 	}
+	
+	public double divideTwoNumbers (Integer a, Integer b) {
+		
+		double c = (double) a/b;
+		System.out.println(c);
+		
+		return c;
+	}
 }
