@@ -49,4 +49,11 @@ public class TylerService {
 		
 		return c;
 	}
+	
+	public String printHelloWorld () {
+		
+		String solution = "Hello World";
+		System.out.println(solution);
+		return solution;
+	}
 }

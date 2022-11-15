@@ -48,4 +48,11 @@ class TylerServiceTest {
 		assertEquals (result, numberTested);
 		
 	}
+	
+	@Test
+	void testPrintHelloWorld () {
+		String helloWorld = tylerService.printHelloWorld();
+		
+		assertEquals ("Hello World", helloWorld);
+	}
 }
